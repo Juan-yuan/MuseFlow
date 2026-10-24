@@ -86,7 +86,7 @@ dist/
 .eggs/
 
 # =========================
-# Model Files
+# Model Files/Folders
 # =========================
 *.bin
 *.pt
@@ -95,10 +95,7 @@ dist/
 *.safetensors
 *.h5
 *.msgpack
-models/bge-m3
-.neo4j/
-API_INTERFACE.md
-fastapi/API_INTERFACE.md
+demo/
 
 # =========================
 # Temporary Files
@@ -112,4 +109,5 @@ fastapi/API_INTERFACE.md
 # =========================
 # Docker
 # =========================
+docker-compose.yml
 docker-compose.override.yml
