@@ -1,0 +1,115 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Conda
+.conda/
+
+# Conda
+.conda/
+prompt.txt
+
+# =========================
+# Environment & Secrets
+# =========================
+.env
+common/.env
+.env.*
+!.env.example
+prompts.txt
+prompt.txt
+
+# Private schema / metadata (keep only in common/.env as TCM_METADATA)
+common/tcm_metadata.json
+
+# API keys / credentials
+*.pem
+*.key
+secrets/
+credentials/
+
+# =========================
+# IDEs
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Demo
+# =========================
+demo/
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+.cache/
+
+# =========================
+# Build / Packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Model Files
+# =========================
+*.bin
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.h5
+*.msgpack
+models/bge-m3
+.neo4j/
+API_INTERFACE.md
+fastapi/API_INTERFACE.md
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
