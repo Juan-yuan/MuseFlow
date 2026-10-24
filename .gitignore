@@ -111,3 +111,9 @@ demo/
 # =========================
 docker-compose.yml
 docker-compose.override.yml
+
+# =========================
+# Zhihu login session (cookies)
+# =========================
+cookie/
+nodes/

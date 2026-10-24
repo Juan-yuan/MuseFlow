@@ -32,6 +32,9 @@ class Config:
             raise RuntimeError(f"{key} is missing. Set it in .env (see .env.example).")
         return value
 
+    def require_int(self, key: str) -> int:
+        return int(self.require(key))
+
     def require_json(self, key: str):
         return json.loads(self.require(key))
 

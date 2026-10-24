@@ -16,3 +16,4 @@
 - LangChain
 - LLMs
 - Image Generation APIs
+- Playwright
