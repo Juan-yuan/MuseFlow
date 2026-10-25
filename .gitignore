@@ -116,3 +116,8 @@ docker-compose.override.yml
 # Zhihu login session (cookies)
 # =========================
 cookie/
+
+# =========================
+# pipeline nodes (local only)
+# =========================
+nodes/
