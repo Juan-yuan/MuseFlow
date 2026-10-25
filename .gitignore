@@ -116,4 +116,3 @@ docker-compose.override.yml
 # Zhihu login session (cookies)
 # =========================
 cookie/
-nodes/
